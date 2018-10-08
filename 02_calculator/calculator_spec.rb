@@ -30,8 +30,7 @@
 # * `multiply` which multiplies two numbers together
 # * `power` which raises one number to the power of another number
 # * `[factorial](http://en.wikipedia.org/wiki/Factorial)` (check Wikipedia if you forgot your high school math).
-#
-#
+
 
 require "calculator"
 
