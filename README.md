@@ -1,5 +1,6 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
+Fait avec Marie Elodie Royer
 
 ### Set up instructions
 
