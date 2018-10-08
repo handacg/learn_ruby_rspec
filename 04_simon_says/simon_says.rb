@@ -21,6 +21,11 @@ end
 
 def titleize (string)
 	no_caps = ["and","the"]
-	return string.split (" ").map {|word| word.capitalize}
+	array = string.split (" ")
+	array[0]= array[0].capitalize
+	if array.length > 1
+		array [1..-1] = array[1..-1].map {|x| (x!= "and the").capitalize}
+	end
+	return array.join(" ")
 end
 
